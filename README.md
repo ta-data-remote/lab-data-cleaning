@@ -16,32 +16,14 @@ In this lab you will be working on [main.ipynb](your-code/main.ipynb). To launch
 
 When you are on `main.ipynb`, read the instructions for each cell and provide your answers. Make sure to test your answers in each cell and save. Jupyter Notebook should automatically save your work progress. But it's a good idea to periodically save your work manually just in case.
 
-## Goals
-
-Do you remember your MySQL project? In this lab, you will examine some MySQL tables from [here](https://relational.fit.cvut.cz/dataset/Stats). This database contains an anonymized dump of all user-contributed content on the Stats Stack Exchange network.
-
-You will need to import the `pymysql` library and the `create_engine` function from the `sqlalchemy` library.
-
-```python
-import pymysql
-from sqlalchemy import create_engine
-```
-
-Once your connection is established with the database you will use some basic SELECT queries to retrieve the data in order to answer the questions described next.
-
-:bulb: If you receive import errors for `pymysql` or `sqlalchemy`, it means you need to install them with `pip`.
 
 ### Challenge Questions
 
-1. Connect to the server and collect all the data from users and posts tables.
 
-2. Create a merged dataframe with users and post tables. **Take into account that you will need to do some stuff before merging.**
+1. Create a merged dataframe with users and post tables. **Take into account that you will need to do some stuff before merging.**
 
-3. Identify missing values in the merged dataframe and apply some of the methods.
+2. Identify missing values in the merged dataframe and apply some of the methods.
 
-4. Change the data types of your merged dataset accordingly.
-
-5. Bonus Question: Create a dataframe with the outliers you have identified in the dataframe and export it to a csv file in your-code folder. 
 
 **:exclamation: If you feel you are already good at Python/Pandas and don't need the instructions in `main.ipynb` to walk you through, please feel free to skip `main.ipynb` and create your own solution file.**
 
